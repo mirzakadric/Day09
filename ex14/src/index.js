@@ -5,7 +5,8 @@ function myForLoop1() {
     for (var i = 0; i <= 8; i += 2) {
         var evenNumbers = evenNumbers.concat(i) + ", ";
     }
-    return evenNumbers.slice(0, -2);
+    evenNumbers = evenNumbers.slice(0, -2);
+    return evenNumbers;
 }
 
 function myForLoop2() {
@@ -13,7 +14,8 @@ function myForLoop2() {
     for (var i = 8; i >= 0; i -= 2) {
         evenInverseNumbers = evenInverseNumbers.concat(i) + ", ";
     }
-    return evenInverseNumbers.slice(0, -2);
+    evenInverseNumbers = evenInverseNumbers.slice(0, -2);
+    return evenInverseNumbers;
 }
 
 

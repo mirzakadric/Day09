@@ -9,7 +9,8 @@ function inverseWhile() {
         myString = myString.concat(fiveNumbers) + ",";
         fiveNumbers --
     }
-    return myString.slice(0, -1);
+    fiveNumbers = myString.slice(0, -1)
+    return fiveNumbers;
 }
 
 // Only change code above this line

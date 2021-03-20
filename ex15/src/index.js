@@ -8,8 +8,8 @@ function myDoWhile() {
         myNumbers = myNumbers.concat(i) + ", ";
         i++;
     } while (i < 10);
-
-    return myNumbers.slice(0, -2);
+    myNumbers = myNumbers.slice(0, -2);
+    return myNumbers;
 }
 
 console.log(myDoWhile());

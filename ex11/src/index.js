@@ -4,19 +4,19 @@ function switchCase(letter) {
 
     switch(letter) {
         case "a":
-            animals = "antelope";
+            var animals = "antelope";
             break;
 
         case "b":
-            animals = "bird";
+            var animals = "bird";
             break;
 
         case "c":
-            animals = "cat";
+            var animals = "cat";
             break;
 
         default:
-            animals = "stuff";
+            var animals = "stuff";
             break;
     }
 
